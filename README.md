@@ -178,19 +178,6 @@ All displacement and velocity arrays retain `NaN` water pixels inherited from th
 
 Tests cover mandatory long-baseline bridges, retention of redundant closure edges, design-matrix dimensions, and recovery of a known cumulative phase series.
 
-## Upload to GitHub
-
-```powershell
-git init
-git add .
-git commit -m "Initial release: connectivity-preserving SBAS time series"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/insar-timeseries.git
-git push -u origin main
-```
-
-`InSAR_Unwrapping/OUTPUT`, local `OUTPUT`, binary rasters, NumPy results, caches, and virtual environments are excluded from this repository.
-
 ## License
 
 This project is distributed under the MIT License. See `LICENSE` for details.
